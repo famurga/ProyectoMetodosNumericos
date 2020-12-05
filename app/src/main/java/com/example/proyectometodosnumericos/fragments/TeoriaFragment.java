@@ -1,4 +1,4 @@
-package com.example.proyectometodosnumericos.ui.gallery;
+package com.example.proyectometodosnumericos.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.proyectometodosnumericos.R;
+import com.example.proyectometodosnumericos.ui.gallery.GalleryViewModel;
 
-public class GalleryFragment extends Fragment {
+public class TeoriaFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
 
