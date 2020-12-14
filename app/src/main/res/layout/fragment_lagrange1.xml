@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041904"
+    android:orientation="vertical"
+    tools:context=".fragments.Lagrange1Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/txtdatox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/botonovalado"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:hint="Ingrese X:"
+            android:inputType="numberDecimal"
+            android:padding="10dp"></EditText>
+
+        <EditText
+            android:id="@+id/txtdatoY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:background="@drawable/botonovalado"
+            android:gravity="center"
+            android:hint="Ingrese Y:"
+            android:inputType="numberDecimal"
+            android:padding="10dp"></EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonAñadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#009688"
+        android:text="Añadir"></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="#EF0528"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Y"
+            android:textColor="#EF0528"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#8BC34A">
+
+                </ListView>
+
+                <ListView
+                    android:id="@+id/listView2"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#8BC34A">
+
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:id="@+id/editValorAinterpolar"
+            android:layout_height="40dp"
+            android:background="@drawable/btncuadrado"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:hint="Valor a interpolar"
+            android:textColorHint="#ffffff">
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/btnCalcularLagrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#0428D8"
+            android:textColor="#ffffff"
+            android:text="Calcular">
+
+        </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGraficar"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#0428D8"
+                android:textColor="#ffffff"
+                android:text="Graficar">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="El resultado es:"></TextView>
+
+        <TextView
+            android:id="@+id/txtResul"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

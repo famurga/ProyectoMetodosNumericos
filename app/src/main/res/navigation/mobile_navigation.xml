@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/PantallaInicio">
 
     <fragment
         android:id="@+id/nav_home"
@@ -15,7 +15,7 @@
         android:id="@+id/nav_gallery"
         android:name="com.example.proyectometodosnumericos.fragments.TeoriaFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_teoria" />
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -26,5 +26,50 @@
         android:id="@+id/calculadora"
         android:name="com.example.proyectometodosnumericos.fragments.CalculadoraFragment"
         android:label="Calculadora"
-        tools:layout="@layout/fragment_calculadora" />
+        tools:layout="@layout/fragment_calculadora" >
+        <action
+            android:id="@+id/action_calculadora_to_temasFragment"
+            app:destination="@id/temasFragment" />
+        <action
+            android:id="@+id/action_calculadora_to_lagrange1Fragment"
+            app:destination="@id/lagrange1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/temasFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.CalculadoraLagrangeFragment"
+        android:label="fragment_temas"
+        tools:layout="@layout/fragment_lagrange" />
+    <fragment
+        android:id="@+id/Soporte"
+        android:name="com.example.proyectometodosnumericos.fragments.SoporteFragment"
+        android:label="Acerca de nosotros"
+        tools:layout="@layout/fragment_soporte" />
+    <fragment
+        android:id="@+id/Evaluaciones"
+        android:name="com.example.proyectometodosnumericos.fragments.EvaluacionFragment"
+        android:label="Evaluación"
+        tools:layout="@layout/fragment_evaluacion" />
+    <fragment
+        android:id="@+id/PantallaInicio"
+        android:name="com.example.proyectometodosnumericos.fragments.PantallaPrincipalFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_pantalla_principal" >
+        <action
+            android:id="@+id/action_PantallaInicio_to_calculadora"
+            app:destination="@id/calculadora" />
+    </fragment>
+    <fragment
+        android:id="@+id/lagrange1Fragment"
+        android:name="com.example.proyectometodosnumericos.fragments.Lagrange1Fragment"
+        android:label="fragment_lagrange1"
+        tools:layout="@layout/fragment_lagrange1" >
+        <action
+            android:id="@+id/action_lagrange1Fragment_to_GraficarFragment"
+            app:destination="@id/GraficarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/GraficarFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.GraficarFragment"
+        android:label="Grafica"
+        tools:layout="@layout/fragment_graficar" />
 </navigation>

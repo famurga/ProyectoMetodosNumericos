@@ -20,6 +20,14 @@
             android:id="@+id/calculadora"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Calculadora" />
+        <item
+            android:id="@+id/Soporte"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Acerca de Nosotros" />
+        <item
+            android:id="@+id/Evaluaciones"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Evaluaciones" />
 
     </group>
 </menu>
