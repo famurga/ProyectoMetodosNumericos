@@ -10,10 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.proyectometodosnumericos.R;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -23,20 +19,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-import androidx.navigation.Navigation;
 
-import com.example.proyectometodosnumericos.R;
 import com.example.proyectometodosnumericos.metodos.Lagrange;
-import com.example.proyectometodosnumericos.ui.gallery.GalleryViewModel;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Lagrange1Fragment extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
     private EditText t1,t2,editInterpo;
@@ -57,7 +45,7 @@ public class Lagrange1Fragment extends Fragment implements View.OnClickListener,
 
         View root = inflater.inflate(R.layout.fragment_lagrange1, container, false);
 
-        t1=root.findViewById(R.id.txtdatox);
+        t1=root.findViewById(R.id.txtdatoX);
         t2=root.findViewById(R.id.txtdatoY);
         editInterpo=root.findViewById(R.id.editValorAinterpolar);
         b1=root.findViewById(R.id.botonAñadir);

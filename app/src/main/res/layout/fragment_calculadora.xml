@@ -42,17 +42,17 @@
         android:textSize="20sp"
         android:layout_height="wrap_content">
     </TextView>
+
     <Button
         android:id="@+id/btnLagrange1"
         android:layout_width="wrap_content"
-        android:paddingLeft="15dp"
-        android:background="@drawable/botonovalado2"
-        android:layout_gravity="center"
-        android:paddingRight="15dp"
-        android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
-        android:text="Lagrange">
-    </Button>
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/botonovalado2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Lagrange"></Button>
     <Button
         android:id="@+id/btnLagrange"
         android:layout_width="wrap_content"
