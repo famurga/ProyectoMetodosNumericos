@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_calculadora_to_lagrange1Fragment"
             app:destination="@id/lagrange1Fragment" />
+        <action
+            android:id="@+id/action_calculadora_to_newtonFragment"
+            app:destination="@id/newtonFragment" />
     </fragment>
     <fragment
         android:id="@+id/temasFragment"
@@ -72,4 +75,14 @@
         android:name="com.example.proyectometodosnumericos.fragments.GraficarFragment"
         android:label="Grafica"
         tools:layout="@layout/fragment_graficar" />
+    <fragment
+        android:id="@+id/newtonFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.NewtonFragment"
+        android:label="fragment_newton"
+        tools:layout="@layout/fragment_newton" />
+    <fragment
+        android:id="@+id/ejercicioNewtonFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.EjercicioNewtonFragment"
+        android:label="fragment_ejercicio_newton"
+        tools:layout="@layout/fragment_ejercicio_newton" />
 </navigation>
