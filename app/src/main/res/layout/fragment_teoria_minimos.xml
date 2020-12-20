@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/teoria_minimos"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/teoria_minimos" />
+        <ImageView
+            android:id="@+id/teoria_minimos_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/teoria_minimos_1" />
+        <ImageView
+            android:id="@+id/teoria_minimos_2"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            app:srcCompat="@drawable/teoria_minimos_2" />
+        <ImageView
+            android:id="@+id/teoria_minimos_3"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/teoria_minimos_3" />
+        <ImageView
+            android:id="@+id/teoria_minimos_4"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            app:srcCompat="@drawable/teoria_minimos_4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

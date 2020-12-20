@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient4"
     android:orientation="vertical"
-    tools:context=".fragments.MenuTeoriaFragment">
-
-
+    tools:context=".fragments.EjemploFragment">
     <TextView
         android:layout_width="wrap_content"
         android:text="Ajuste de Curva:"
@@ -21,7 +19,7 @@
         android:layout_height="wrap_content">
     </TextView>
     <Button
-        android:id="@+id/btnAjusteTeoria"
+        android:id="@+id/btnMinimos"
         android:layout_width="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
@@ -42,8 +40,9 @@
         android:textSize="20sp"
         android:layout_height="wrap_content">
     </TextView>
+
     <Button
-        android:id="@+id/btnTeoInterLineal"
+        android:id="@+id/btnLagrange1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -51,21 +50,31 @@
         android:background="@drawable/botonovalado2"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:text="Interpolacion Lineal"></Button>
-
+        android:text="Lagrange"></Button>
     <Button
-        android:id="@+id/btnTeoriaPolinomial"
+        android:id="@+id/btnLagrange"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/botonovalado2"
         android:paddingLeft="15dp"
+        android:background="@drawable/botonovalado2"
+        android:layout_gravity="center"
         android:paddingRight="15dp"
-        android:text="Interpolacion polinomial"></Button>
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Lagrange 2">
 
+    </Button>
+    <Button
+        android:id="@+id/btnNewton"
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"
+        android:background="@drawable/botonovalado2"
+        android:layout_gravity="center"
+        android:paddingRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Newton">
 
-
+    </Button>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

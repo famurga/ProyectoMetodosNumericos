@@ -56,7 +56,6 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
         FragmentSoporte = new SoporteFragment();
         FragmentEjemplos = new EjemploFragment();
         //FragmentEjemplos = new SlideshowFragment();
-
         return v;
 
     }
