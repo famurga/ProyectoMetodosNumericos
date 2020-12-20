@@ -45,7 +45,7 @@ public class Lagrange1Fragment extends Fragment implements View.OnClickListener,
 
         View root = inflater.inflate(R.layout.fragment_lagrange1, container, false);
 
-        t1=root.findViewById(R.id.txtdatoX);
+        t1=root.findViewById(R.id.txtdatox);
         t2=root.findViewById(R.id.txtdatoY);
         editInterpo=root.findViewById(R.id.editValorAinterpolar);
         b1=root.findViewById(R.id.botonAñadir);

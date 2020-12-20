@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo_int_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gradient4"
+                android:padding="10dp"
+                android:text="INTERPOLACION LINEAL"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cuerpo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Cuando las variaciones de la función son proporcionales (o casi proporcionales) a los de la variable independiente se puede admitir que dicha función es lineal y usar para estimar los valores la interpolación lineal…"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/cardview_light_background" />
+
+            <ImageView
+                android:id="@+id/formula1"
+                android:layout_width="283dp"
+                android:layout_height="164dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                app:srcCompat="@drawable/f1" />
+
+            <TextView
+                android:id="@+id/cuerpo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/sean_dos_puntos_xo_yo_x1_y1_la_interpolaci_n_lineal_consiste_en_hallar_una_estimaci_n_del_valor_y_para_un_valor_x_tal_que_x0_x_x1_obtenemos_la_f_rmula_de_la_interpolaci_n_lineal"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/cardview_light_background" />
+
+            <ImageView
+                android:id="@+id/formula2"
+                android:layout_width="294dp"
+                android:layout_height="91dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="60dp"
+                app:srcCompat="@drawable/f2" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
