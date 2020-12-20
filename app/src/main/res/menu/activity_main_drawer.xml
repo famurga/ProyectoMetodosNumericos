@@ -28,6 +28,10 @@
             android:id="@+id/Evaluaciones"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Evaluaciones" />
+        <item
+            android:id="@+id/miPerfilFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mi Perfil" />
 
     </group>
 </menu>
