@@ -121,16 +121,16 @@
 
 
 
-        <Button
-            android:id="@+id/btnCalcularInterpolacionLineal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="#0428D8"
-            android:textColor="#ffffff"
-            android:text="Calcular">
+            <Button
+                android:id="@+id/btnCalcularInterpolacionLineal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#0428D8"
+                android:textColor="#ffffff"
+                android:text="Calcular">
 
-        </Button>
+            </Button>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

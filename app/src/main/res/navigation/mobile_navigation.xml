@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/PantallaInicio">
+    app:startDestination="@id/loginFragment2">
 
     <fragment
         android:id="@+id/nav_home"
@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.proyectometodosnumericos.fragments.TeoriaFragment"
-        android:label="@string/menu_gallery"
+        android:label="Teoria del curso"
         tools:layout="@layout/fragment_teoria" />
 
     <fragment
@@ -33,6 +33,9 @@
         <action
             android:id="@+id/action_calculadora_to_lagrange1Fragment"
             app:destination="@id/lagrange1Fragment" />
+        <action
+            android:id="@+id/action_calculadora_to_newtonFragment"
+            app:destination="@id/newtonFragment" />
     </fragment>
     <fragment
         android:id="@+id/temasFragment"
@@ -72,4 +75,28 @@
         android:name="com.example.proyectometodosnumericos.fragments.GraficarFragment"
         android:label="Grafica"
         tools:layout="@layout/fragment_graficar" />
+    <fragment
+        android:id="@+id/newtonFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.NewtonFragment"
+        android:label="fragment_newton"
+        tools:layout="@layout/fragment_newton" />
+    <fragment
+        android:id="@+id/ejercicioNewtonFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.EjercicioNewtonFragment"
+        android:label="fragment_ejercicio_newton"
+        tools:layout="@layout/fragment_ejercicio_newton" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.proyectometodosnumericos.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_PantallaInicio"
+            app:destination="@id/PantallaInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/miPerfilFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.MiPerfilFragment"
+        android:label="fragment_mi_perfil"
+        tools:layout="@layout/fragment_mi_perfil" />
 </navigation>
