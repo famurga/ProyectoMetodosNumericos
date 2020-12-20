@@ -12,17 +12,13 @@ import android.view.ViewGroup;
 
 import com.example.proyectometodosnumericos.R;
 import com.example.proyectometodosnumericos.metodos.InterpolacionLineal;
-import com.example.proyectometodosnumericos.metodos.Lagrange;
 
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 public class InterpolacionLinealFragment extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
     private EditText x0,x1,x,y0,y1,y;

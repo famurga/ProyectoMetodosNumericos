@@ -27,6 +27,8 @@
     <string name="prev">Anterior</string>
     <string name="results">Resultado</string>
     <string name="start_over">Volver a jugar</string>
+    <string name="sean_dos_puntos_xo_yo_x1_y1_la_interpolaci_n_lineal_consiste_en_hallar_una_estimaci_n_del_valor_y_para_un_valor_x_tal_que_x0_x_x1_obtenemos_la_f_rmula_de_la_interpolaci_n_lineal"><![CDATA[Sean dos puntos (xo, yo), (x1, y1), la interpolación lineal consiste en hallar una estimación del valor y, para un valor x tal que x0<x<x1. Obtenemos la fórmula de la interpolación lineal.]]></string>
+
     <array name="all_questions">
         <item>Es la forma mas simple de interpolación la cual consiste en unir dos puntos con una
             linea recta;Interpolación cuadratica;*Interpolacion lineal;Interpolación de

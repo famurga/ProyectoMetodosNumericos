@@ -77,10 +77,6 @@ public class EvaluacionFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         Log.i("lifecycle", "onCreate");
         super.onCreate(savedInstanceState);
-
-
-
-
     }
 
     @Override
@@ -147,11 +143,7 @@ public class EvaluacionFragment extends Fragment {
             }
         });
 
-
-
-
         return v;
-
     }
 
     private void startOver() {
