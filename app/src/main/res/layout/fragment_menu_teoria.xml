@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient4"
+    android:orientation="vertical"
+    tools:context=".fragments.MenuTeoriaFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Ajuste de Curva:"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:id="@+id/btnAjuste"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/botonovalado2"
+        android:text="Minimos Cuadrados">
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Interpolación:"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:id="@+id/btnInterLineal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/botonovalado2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Interpolacion Lineal"></Button>
+
+    <Button
+        android:id="@+id/btnLagrange1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/botonovalado2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Lagrange"></Button>
+    <Button
+        android:id="@+id/btnLagrange"
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"
+        android:background="@drawable/botonovalado2"
+        android:layout_gravity="center"
+        android:paddingRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Lagrange 2">
+
+    </Button>
+    <Button
+        android:id="@+id/btnNewton"
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"
+        android:background="@drawable/botonovalado2"
+        android:layout_gravity="center"
+        android:paddingRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Newton">
+
+    </Button>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -28,49 +28,107 @@
     <string name="results">Resultado</string>
     <string name="start_over">Volver a jugar</string>
     <array name="all_questions">
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 y ln(6)=1.791759;*0.3583519;0.3899585;0.3055888;0.3987466</item>
         <item>Es la forma mas simple de interpolación la cual consiste en unir dos puntos con una
             linea recta;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
             Newton;Interpolación de Lagrange
         </item>
-        <item>Pregunta 2;a;*b;c;d</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>Con frecuencia se tienen que estimar valores intermedios entre valores conocidos. El
+            método más común empleado para este propósitodonde existe uno y sólo un polinomio de
+            n-ésimo orden o menor que pasa a través de todos los puntosa este método se le
+            denomina:;*Método de Interpolación;Método de Taylor;Métodos Iterativos;Ajuste de curvas
+        </item>
+        <item>Es un método que se basa en la forma más simple de interpolación, que es conectar dos
+            puntos con una línea recta.;*Interpolación por Diferencias
+            Divididas;Descomposición;Método de Dolitle;Newton
+        </item>
+        <item>Métodode aproximación lineal con el cual no se necesita resolver un sistema de
+            ecuaciones lineales. Se parte de una f(x) que se proporciona en forma tabular, polinomio
+            de primer grado se escribe como sigue: P(X)=a0(X-X1)+a1(X-X0);*Polinomios de
+            Lagrange;Ajuste de curvas;Metodos Iterativos;Newton
+        </item>
+        <item>Método de análisis numérico en la que, dados un conjunto de pares ordenados: variable
+            independiente, variable dependiente, y una familia de funciones, se intenta encontrar
+            lafunción continua, dentro de dicha familia, quemejor se aproxime a los datos en otras
+            palabras un "mejor ajuste;*Métodos de Mínimos Cuadrados;Interpolación;Método de Ajuste
+            de Curvas;Newton
+        </item>
+        <item>El modelo de regresión lineal simple, varianza de  Y condicionada a cada valor de X:;*Es constante;Varia según cambia la variable predictora;Varia en virtud  de los valores que toma la variable criterio;NA
+        </item>
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 yln(4)=1.386294;*0.4620981;0.4258999;0.5025577;0.4129987</item>
+        <item>En una interpolacion lineal es la discrepancia entre el valor verdadero de Y y el valor aproximado, a0+a1x, que predijo la ecuacion lineal;Desviacion estandar;Coeficiente de determinacion;*Error o residuo;Coeficiente de correlacion</item>
+        <item> La formula f1(x)=f(x0)+[(f(x1)-f(x0))/(x1-x0)](x-x0) corresponde a;Interpolacion cuadratica;Interpolacion de Lagrange;*Interpolacion lineal;Interpolacion cubica</item>
     </array>
 
     <array name="all_questions2">
-        <item>Cuestionario tipo 2;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
+        <item>Métodode aproximación lineal con el cual no se necesita resolver un sistema de
+            ecuaciones lineales. Se parte de una f(x) que se proporciona en forma tabular, polinomio
+            de primer grado se escribe como sigue: P(X)=a0(X-X1)+a1(X-X0);*Polinomios de
+            Lagrange;Ajuste de curvas;Metodos Iterativos;Newton
+        </item>
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 y ln(6)=1.791759;*0.3583519;0.3899585;0.3055888;0.3987466</item>
+
+        <item>Es un método que se basa en la forma más simple de interpolación, que es conectar dos
+            puntos con una línea recta.;*Interpolación por Diferencias
+            Divididas;Descomposición;Método de Dolitle;Newton
+        </item>
+        <item>Con frecuencia se tienen que estimar valores intermedios entre valores conocidos. El
+            método más común empleado para este propósitodonde existe uno y sólo un polinomio de
+            n-ésimo orden o menor que pasa a través de todos los puntosa este método se le
+            denomina:;*Método de Interpolación;Método de Taylor;Métodos Iterativos;Ajuste de curvas
+        </item>
+        <item>Método de análisis numérico en la que, dados un conjunto de pares ordenados: variable
+            independiente, variable dependiente, y una familia de funciones, se intenta encontrar
+            lafunción continua, dentro de dicha familia, quemejor se aproxime a los datos en otras
+            palabras un "mejor ajuste;*Métodos de Mínimos Cuadrados;Interpolación;Método de Ajuste
+            de Curvas;Newton
+        </item>
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 yln(4)=1.386294;*0.4620981;0.4258999;0.5025577;0.4129987</item>
+        <item>El modelo de regresión lineal simple, varianza de  Y condicionada a cada valor de X:;*Es constante;Varia según cambia la variable predictora;Varia en virtud  de los valores que toma la variable criterio;NA
+        </item>
+        <item>Es la forma mas simple de interpolación la cual consiste en unir dos puntos con una
+            linea recta;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
             Newton;Interpolación de Lagrange
         </item>
-        <item>Con frecuencia se tienen que estimar valores intermedios entre valores conocidos. El método más común empleado para este propósitodonde existe uno y sólo un polinomio de n-ésimo orden o menor que pasa a través de todos los puntosa este método se le denomina:;*Método de Interpolación;Método de Taylor;Métodos Iterativos;Ajuste de curvas</item>
-        <item>Métodode aproximación lineal con el cual no se necesita resolver un sistema de ecuaciones lineales. Se parte de una f(x) que se proporciona en forma tabular, polinomio de primer grado se escribe como sigue: P(X)=a0(X-X1)+a1(X-X0);*Polinomios de Lagrange;Ajuste de curvas;Metodos Iterativos;Newton</item>
-        <item>Es un método que se basa en la forma más simple de interpolación, que es conectar dos puntos con una línea recta.;*Interpolación por Diferencias Divididas;Descomposición;Método de Dolitle;Newton</item>
-        <item>Método  de análisis  numérico en  la  que,  dados  un  conjunto  de  pares  ordenados:  variable  independiente, variable dependiente, y una familia de funciones, se intenta encontrar lafunción continua, dentro de dicha familia, quemejor se aproxime a los datos en otras palabras un "mejor ajuste;*Métodos de Mínimos Cuadrados;Interpolación;Método de Ajuste de Curvas;Newton</item>
-        <item>Como se le denomina a la función interpoladora que puede ser una función afín (un polinomio de grado 1 o sea una recta) que pasa a través de los puntos;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item> La formula f1(x)=f(x0)+[(f(x1)-f(x0))/(x1-x0)](x-x0) corresponde a;Interpolacion cuadratica;Interpolacion de Lagrange;*Interpolacion lineal;Interpolacion cubica</item>
         <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>En una interpolacion lineal es la discrepancia entre el valor verdadero de Y y el valor aproximado, a0+a1x, que predijo la ecuacion lineal;Desviacion estandar;Coeficiente de determinacion;*Error o residuo;Coeficiente de correlacion</item>
+
     </array>
 
     <array name="all_questions3">
-        <item>Cuestionario tipo 3;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
+        <item>Es un método que se basa en la forma más simple de interpolación, que es conectar dos
+            puntos con una línea recta.;*Interpolación por Diferencias
+            Divididas;Descomposición;Método de Dolitle;Newton
+        </item>
+        <item>Es la forma mas simple de interpolación la cual consiste en unir dos puntos con una
+            linea recta;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
             Newton;Interpolación de Lagrange
         </item>
-        <item>Pregunta 2;a;*b;c;d</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
-        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>El modelo de regresión lineal simple, varianza de  Y condicionada a cada valor de X:;*Es constante;Varia según cambia la variable predictora;Varia en virtud  de los valores que toma la variable criterio;NA
+        </item>
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 y ln(6)=1.791759;*0.3583519;0.3899585;0.3055888;0.3987466</item>
+
+        <item>Método de análisis numérico en la que, dados un conjunto de pares ordenados: variable
+            independiente, variable dependiente, y una familia de funciones, se intenta encontrar
+            lafunción continua, dentro de dicha familia, quemejor se aproxime a los datos en otras
+            palabras un "mejor ajuste;*Métodos de Mínimos Cuadrados;Interpolación;Método de Ajuste
+            de Curvas;Newton
+        </item>
+        <item>Estime el logaritmo natural de 2 mediante interpolacion lineal. Realice el calculo por interpolacion entre ln(1)=0 yln(4)=1.386294;*0.4620981;0.4258999;0.5025577;0.4129987</item>
+        <item>Con frecuencia se tienen que estimar valores intermedios entre valores conocidos. El
+            método más común empleado para este propósitodonde existe uno y sólo un polinomio de
+            n-ésimo orden o menor que pasa a través de todos los puntosa este método se le
+            denomina:;*Método de Interpolación;Método de Taylor;Métodos Iterativos;Ajuste de curvas
+        </item>
+        <item>Métodode aproximación lineal con el cual no se necesita resolver un sistema de
+            ecuaciones lineales. Se parte de una f(x) que se proporciona en forma tabular, polinomio
+            de primer grado se escribe como sigue: P(X)=a0(X-X1)+a1(X-X0);*Polinomios de
+            Lagrange;Ajuste de curvas;Metodos Iterativos;Newton
+        </item>
+        <item>En una interpolacion lineal es la discrepancia entre el valor verdadero de Y y el valor aproximado, a0+a1x, que predijo la ecuacion lineal;Desviacion estandar;Coeficiente de determinacion;*Error o residuo;Coeficiente de correlacion</item>
+
+        <item> La formula f1(x)=f(x0)+[(f(x1)-f(x0))/(x1-x0)](x-x0) corresponde a;Interpolacion cuadratica;Interpolacion de Lagrange;*Interpolacion lineal;Interpolacion cubica</item>
     </array>
 
 </resources>
