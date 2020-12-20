@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient4"
     android:orientation="vertical"
-    tools:context=".fragments.EjemploFragment">
+    tools:context=".fragments.MenuEjemploFragment">
     <TextView
         android:layout_width="wrap_content"
         android:text="Ajuste de Curva:"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content">
     </TextView>
     <Button
-        android:id="@+id/btnMinimos"
+        android:id="@+id/btnEjercicioMinimos"
         android:layout_width="wrap_content"
         android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
     </TextView>
 
     <Button
-        android:id="@+id/btnLagrange1"
+        android:id="@+id/btnEjerciciosInterLineal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -50,9 +50,9 @@
         android:background="@drawable/botonovalado2"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:text="Lagrange"></Button>
+        android:text="Interpolacion Lineal"></Button>
     <Button
-        android:id="@+id/btnLagrange"
+        android:id="@+id/btnEjercicioLagrange"
         android:layout_width="wrap_content"
         android:paddingLeft="15dp"
         android:background="@drawable/botonovalado2"
@@ -60,11 +60,11 @@
         android:paddingRight="15dp"
         android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
-        android:text="Lagrange 2">
+        android:text="Lagrange">
 
     </Button>
     <Button
-        android:id="@+id/btnNewton"
+        android:id="@+id/btnEjercicioNewton"
         android:layout_width="wrap_content"
         android:paddingLeft="15dp"
         android:background="@drawable/botonovalado2"

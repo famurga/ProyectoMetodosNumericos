@@ -44,7 +44,7 @@ public class CalculadoraMinimosFragment extends Fragment implements View.OnClick
         t2=root.findViewById(R.id.txtdatoY);
         editInterpo=root.findViewById(R.id.editValorAinterpolar);
         b1=root.findViewById(R.id.botonAñadir);
-        BotonCalcular=root.findViewById(R.id.btnCalcularLagrange);
+        BotonCalcular=root.findViewById(R.id.btnCalcularMinimos);
         BotonGraficar=root.findViewById(R.id.btnGraficar);
         b1.setOnClickListener(this);
         BotonCalcular.setOnClickListener(this);
@@ -75,10 +75,20 @@ public class CalculadoraMinimosFragment extends Fragment implements View.OnClick
                 mlistView2.setAdapter(mAdapter2);
                 break;
 
-            case R.id.btnCalcularLagrange:
-                double x[]={2,3,5,7,9};
-                double y[]={4,5,7,10,15};
-                MinimosCuadrados mc=new MinimosCuadrados(x,y);
+            case R.id.btnCalcularMinimos:
+
+                int longitud1=mLista.size();
+                double[] ArregloX1=new double[longitud1];
+                double[] ArregloY1=new double[longitud1];
+                for(int i=0;i<longitud1;i++){
+                    ArregloX1[i]=mLista.get(i);
+                    ArregloY1[i]=mLista2.get(i);
+                }
+                //double x[]={2,3,5,7,9};
+               // double y[]={4,5,7,10,15};
+
+
+                MinimosCuadrados mc=new MinimosCuadrados(ArregloX1,ArregloY1);
                 String Res = mc.resultado();
                 String Error = mc.calcularR();
                 //System.out.println(mc.calcularR());

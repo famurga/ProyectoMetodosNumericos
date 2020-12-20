@@ -54,7 +54,7 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
         FragmentCalculadora = new CalculadoraFragment();
         FragmentTeoria = new MenuTeoriaFragment();
         FragmentSoporte = new SoporteFragment();
-        FragmentEjemplos = new EjemploFragment();
+        FragmentEjemplos = new MenuEjemploFragment();
         //FragmentEjemplos = new SlideshowFragment();
         return v;
 
@@ -66,12 +66,11 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
 
         switch (v.getId()){
 
-            case R.id.ActicardId:
+            case R.id.ActicardId://teoria
                 Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_nav_gallery);
                 break;
-            case R.id.TaskCardId:
-                transaction.replace(R.id.nav_host_fragment,FragmentEjemplos);
-                transaction.addToBackStack(null);
+            case R.id.TaskCardId://ejemplos
+                Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_nav_slideshow);
                 break;
             case R.id.PerfilCardId:
                 Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_calculadora);

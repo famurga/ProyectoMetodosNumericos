@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient4"
+    tools:context=".fragments.EjemploInterpolacionLinealFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/eje_int_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:text="EJERCICIO"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="36sp"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:id="@+id/eje_int_t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="El número de bacterias por unidad de volumen existentes en una incubación después de x horas es presentado en la siguiente tabla. Se desea saber cuál es el volumen de bacterias para el tiempo de 3,5 horas."
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eje1_int_lin"
+            />
+
+            <TextView
+                android:id="@+id/eje_int_solucion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:text="SOLUCION"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="36sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/eje_int_t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="La tabla de referencia no establece un valor que indique la cantidad de bacterias para un tiempo de 3,5 horas pero sí se tienen valores superiores e inferiores correspondientes a un tiempo de 3 y 4 horas, respectivamente. De esa forma:"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/eje_int_t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:text="x0 = 3           y0 = 91\nx = 3,5           y =?\nx1 = 4           y1 = 135"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/eje_int_t4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahora, se aplica la ecuación matemática para encontrar el valor interpolado, que es la siguiente:\ny = y0 + (y1 – y0) * [(x – x0) ÷ (x1 – x0)]\n\nLuego se sustituyen los valores correspondientes: \ny = 91 + (135 – 91) * [(3,5 – 3) ÷ (4 – 3)]  \ny = 91 + (44)* [(0,5) ÷ (1)] \ny = 91 + 44 * 0,5  \ny = 113 \nAsí se obtiene que para un tiempo de 3,5 horas, la cantidad de bacterias es 113, que representa un nivel intermedio entre el volumen de bacterias existentes en los tiempos de 3 y 4 horas."
+                android:textColor="@color/cardview_light_background"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

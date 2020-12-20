@@ -40,6 +40,15 @@ public class MenuTeoriaFragment extends Fragment {
                 Navigation.findNavController(v).navigate(R.id.action_nav_gallery_to_teoriaInterpolacionFragment);
             }
         });
+        btnLineal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_nav_gallery_to_teoriaInterpolacionLinealFragment);
+
+            }
+        });
+
+
 
 
         return root;

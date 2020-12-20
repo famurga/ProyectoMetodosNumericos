@@ -19,7 +19,7 @@ import com.example.proyectometodosnumericos.metodos.Lagrange;
 
 public class CalculadoraFragment extends Fragment {
 
-    Button btnLagrange, btnAjuste,btnLagrange1,btnNewton;
+    Button btnLagrange, btnAjuste,btnLagrange1,btnNewton,btnLineal;
 
     FragmentTransaction transaction;
     Fragment fragmentLagrange, fragmentAjusteC;
@@ -35,8 +35,9 @@ public class CalculadoraFragment extends Fragment {
 
         btnLagrange= v.findViewById(R.id.btnLagrange);
         btnLagrange1= v.findViewById(R.id.btnLagrange1);
-        btnAjuste= v.findViewById(R.id.btnAjuste);
         btnNewton=v.findViewById(R.id.btnNewton);
+        btnLineal=v.findViewById(R.id.btnInterLineal);
+        btnAjuste=v.findViewById(R.id.btnAjuste);
 
         fragmentLagrange = new CalculadoraLagrangeFragment();
         fragmentAjusteC = new CalculadoraLagrangeFragment();
@@ -69,6 +70,21 @@ public class CalculadoraFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Navigation.findNavController(v).navigate(R.id.action_calculadora_to_newtonFragment);
+
+            }
+        });
+
+        btnLineal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_calculadora_to_interpolacionLinealFragment);
+
+            }
+        });
+        btnAjuste.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_calculadora_to_calculadoraMinimosFragment);
 
             }
         });

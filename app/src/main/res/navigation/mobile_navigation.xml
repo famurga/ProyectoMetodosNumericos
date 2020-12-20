@@ -22,13 +22,26 @@
         <action
             android:id="@+id/action_nav_gallery_to_teoriaMinimosFragment"
             app:destination="@id/teoriaMinimosFragment" />
+        <action
+            android:id="@+id/action_nav_gallery_to_teoriaInterpolacionLinealFragment"
+            app:destination="@id/teoriaInterpolacionLinealFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.proyectometodosnumericos.fragments.EjemploFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.proyectometodosnumericos.fragments.MenuEjemploFragment"
+        android:label="Menu de Ejercicios"
+        tools:layout="@layout/fragment_menu_ejemplos" >
+        <action
+            android:id="@+id/action_nav_slideshow_to_ejemploMinimosFragment"
+            app:destination="@id/ejemploMinimosFragment" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_ejemploLagrangeFragment"
+            app:destination="@id/ejemploLagrangeFragment" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_ejemploInterpolacionLinealFragment"
+            app:destination="@id/ejemploInterpolacionLinealFragment" />
+    </fragment>
     <fragment
         android:id="@+id/calculadora"
         android:name="com.example.proyectometodosnumericos.fragments.CalculadoraFragment"
@@ -43,6 +56,12 @@
         <action
             android:id="@+id/action_calculadora_to_newtonFragment"
             app:destination="@id/newtonFragment" />
+        <action
+            android:id="@+id/action_calculadora_to_interpolacionLinealFragment"
+            app:destination="@id/interpolacionLinealFragment" />
+        <action
+            android:id="@+id/action_calculadora_to_calculadoraMinimosFragment"
+            app:destination="@id/calculadoraMinimosFragment" />
     </fragment>
     <fragment
         android:id="@+id/temasFragment"
@@ -70,6 +89,9 @@
         <action
             android:id="@+id/action_PantallaInicio_to_nav_gallery"
             app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_PantallaInicio_to_nav_slideshow"
+            app:destination="@id/nav_slideshow" />
     </fragment>
     <fragment
         android:id="@+id/lagrange1Fragment"
@@ -118,4 +140,33 @@
         android:id="@+id/teoriaMinimosFragment"
         android:name="com.example.proyectometodosnumericos.fragments.TeoriaMinimosFragment"
         android:label="TeoriaMinimosFragment" />
+    <fragment
+        android:id="@+id/teoriaInterpolacionLinealFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.TeoriaInterpolacionLinealFragment"
+        android:label="fragment_teoria_interpolacionlineal"
+        tools:layout="@layout/fragment_teoria_interpolacionlineal" />
+    <fragment
+        android:id="@+id/ejemploMinimosFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.EjemploMinimosFragment"
+        android:label="EjemploMinimosFragment" />
+    <fragment
+        android:id="@+id/ejemploLagrangeFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.EjemploLagrangeFragment"
+        android:label="EjemploLagrangeFragment" />
+    <fragment
+        android:id="@+id/ejemploInterpolacionLinealFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.EjemploInterpolacionLinealFragment"
+        android:label="fragment_ejemplo_interpolacion_lineal"
+        tools:layout="@layout/fragment_ejemplo_interpolacion_lineal" />
+    <fragment
+        android:id="@+id/interpolacionLinealFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.InterpolacionLinealFragment"
+        android:label="fragment_interpolacion_lineal"
+        tools:layout="@layout/fragment_interpolacion_lineal" />
+    <fragment
+        android:id="@+id/calculadoraMinimosFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.CalculadoraMinimosFragment"
+        android:label="fragment_calculadora_minimos"
+        tools:layout="@layout/fragment_calculadora_minimos" />
+
 </navigation>

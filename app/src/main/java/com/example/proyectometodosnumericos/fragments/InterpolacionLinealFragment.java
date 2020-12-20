@@ -23,7 +23,7 @@ import androidx.annotation.NonNull;
 public class InterpolacionLinealFragment extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
     private EditText x0,x1,x,y0,y1,y;
     private Double x0Var,x1Var,xVar,y0Var,y1Var,yVar;
-    private Button BotonCalcular, BotonGraficar;
+    private Button BotonCalcular;
     private TextView txtResult;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -35,12 +35,14 @@ public class InterpolacionLinealFragment extends Fragment implements View.OnClic
         y0=root.findViewById(R.id.txtdatoY0);
         x1=root.findViewById(R.id.txtdatoX1);
         y1=root.findViewById(R.id.txtdatoY1);
-        y=root.findViewById(R.id.txtdatoY);
-        x=root.findViewById(R.id.txtdatox);
+
+        x=root.findViewById(R.id.txtdatoX);
         BotonCalcular=root.findViewById(R.id.btnCalcularInterpolacionLineal);
-        BotonGraficar=root.findViewById(R.id.btnGraficar);
+
+        //BotonGraficar=root.findViewById(R.id.btnGraficar);
+
         BotonCalcular.setOnClickListener(this);
-        BotonGraficar.setOnClickListener(this);
+        //BotonGraficar.setOnClickListener(this);
         txtResult=root.findViewById(R.id.txtResul);
 
 
@@ -59,11 +61,10 @@ public class InterpolacionLinealFragment extends Fragment implements View.OnClic
                 y0Var = Double.parseDouble(y0.getText().toString());
                 x1Var = Double.parseDouble(x1.getText().toString());
                 y1Var = Double.parseDouble(y1.getText().toString());
-                //xVar = Double.parseDouble(x.getText().toString());
-                y0Var = Double.parseDouble(y.getText().toString());
+                xVar = Double.parseDouble(x.getText().toString());
 
 
-                InterpolacionLineal I1= new InterpolacionLineal(x0Var,x1Var,y0Var,y1Var,xVar,yVar);
+                InterpolacionLineal I1= new InterpolacionLineal(x0Var,x1Var,y0Var,y1Var,xVar);
                 double res=I1.valor();
                 // editInterpo.getText().clear();
                 String Res=""+res;
