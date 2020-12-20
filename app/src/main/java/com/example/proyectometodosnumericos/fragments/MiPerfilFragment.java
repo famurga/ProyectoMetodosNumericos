@@ -55,7 +55,7 @@ public class MiPerfilFragment extends Fragment {
         mGoogleSignInClient = GoogleSignIn.getClient(getContext(), gso);
 
 
-        txtNombre =v.findViewById(R.id.txtNom1);
+        txtNombre =v.findViewById(R.id.txtNom);
         txtEmail =v.findViewById(R.id.txtEm);
         txtID =v.findViewById(R.id.txtid);
         imageUsuario =v.findViewById(R.id.Imagefoto1);

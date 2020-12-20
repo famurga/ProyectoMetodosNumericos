@@ -13,9 +13,13 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.proyectometodosnumericos.fragments.TeoriaFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.MenuTeoriaFragment"
         android:label="Teoria del curso"
-        tools:layout="@layout/fragment_teoria" />
+        tools:layout="@layout/fragment_menu_teoria" >
+        <action
+            android:id="@+id/action_nav_gallery_to_teoriaInterpolacionFragment"
+            app:destination="@id/teoriaInterpolacionFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -60,6 +64,9 @@
         <action
             android:id="@+id/action_PantallaInicio_to_calculadora"
             app:destination="@id/calculadora" />
+        <action
+            android:id="@+id/action_PantallaInicio_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
     </fragment>
     <fragment
         android:id="@+id/lagrange1Fragment"
@@ -99,4 +106,9 @@
         android:name="com.example.proyectometodosnumericos.fragments.MiPerfilFragment"
         android:label="fragment_mi_perfil"
         tools:layout="@layout/fragment_mi_perfil" />
+    <fragment
+        android:id="@+id/teoriaInterpolacionFragment"
+        android:name="com.example.proyectometodosnumericos.fragments.TeoriaInterpolacionFragment"
+        android:label="fragment_teoria_interpolacion"
+        tools:layout="@layout/fragment_teoria_interpolacion" />
 </navigation>
