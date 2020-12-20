@@ -46,6 +46,14 @@
     </TextView>
 
     <Button
+        android:id="@+id/interlineal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Button" />
+
+    <Button
         android:id="@+id/btnLagrange1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
