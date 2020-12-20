@@ -7,9 +7,70 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="contraseña">Ingrese Contraseña:</string>
+    <string name="correo">Ingrese Correo:</string>
+    <string name="registrar">REGISTRAR USUARIO</string>
+    <string name="iniciar">INICIAR SESIÓN</string>
+    <string name="invitado">ENTRAR COMO INVITADO</string>
+
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question">Preguntas</string>
+    <string name="check">Check</string>
+    <string name="correct">Very good!</string>
+    <string name="incorrect">Incorrect...</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Fin</string>
+    <string name="prev">Anterior</string>
+    <string name="results">Resultado</string>
+    <string name="start_over">Volver a jugar</string>
+    <array name="all_questions">
+        <item>Es la forma mas simple de interpolación la cual consiste en unir dos puntos con una
+            linea recta;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
+            Newton;Interpolación de Lagrange
+        </item>
+        <item>Pregunta 2;a;*b;c;d</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+    </array>
+
+    <array name="all_questions2">
+        <item>Cuestionario tipo 2;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
+            Newton;Interpolación de Lagrange
+        </item>
+        <item>Pregunta 2;a;*b;c;d</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+    </array>
+
+    <array name="all_questions3">
+        <item>Cuestionario tipo 3;Interpolación cuadratica;*Interpolacion lineal;Interpolación de
+            Newton;Interpolación de Lagrange
+        </item>
+        <item>Pregunta 2;a;*b;c;d</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;*asdfg;qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+        <item>XXXXXXXXXXXXXXXXXXXXX;asdfg;*qwerty;1234567;........</item>
+    </array>
+
 </resources>
