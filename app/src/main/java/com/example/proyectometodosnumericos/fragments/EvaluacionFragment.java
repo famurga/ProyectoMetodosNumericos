@@ -20,6 +20,10 @@ import android.widget.TextView;
 
 import com.example.proyectometodosnumericos.R;
 import com.example.proyectometodosnumericos.TableDynamic;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
@@ -30,6 +34,8 @@ public class EvaluacionFragment extends Fragment {
     public static final String CURRENT_QUESTION = "current_question";
     public static final String ANSWER_IS_CORRECT = "answer_is_correct";
     public static final String ANSWER = "answer";
+    public static DatabaseReference mRootReference;
+    String CorreoUsuario;
 
     private int ids_answers[] = {
             R.id.answer1, R.id.answer2, R.id.answer3, R.id.answer4
@@ -177,6 +183,18 @@ public class EvaluacionFragment extends Fragment {
                 String.format("Correctas: %d\nIncorrectas: %d\nNo contestadas: %d\n",
                         correctas, incorrectas, nocontestadas);
 
+
+        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getContext());
+        if (acct != null) {
+            CorreoUsuario = acct.getDisplayName();
+
+            mRootReference = FirebaseDatabase.getInstance().getReference();
+           // FirebaseDatabase database = FirebaseDatabase.getInstance();
+           // mDataBase = database.getReference();
+            mRootReference.child("Usuarios").child(CorreoUsuario).child("Puntaje").setValue(correctas);
+            //mRootReference.child("nombre").setValue("Frank");
+
+        }
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.results);
         builder.setMessage(message);

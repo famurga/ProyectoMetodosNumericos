@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/gradient5"
+    android:background="#579C95"
     tools:context=".fragments.SoporteFragment">
 
     <ImageView
@@ -47,6 +47,13 @@ del curso de Metodos Numericos">
         android:textStyle="italic"
         android:text="Contacto: fmurga@unsa.edu.pe">
     </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textStyle="italic"
+        android:text="CUI: 20150944">
+    </TextView>
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,7 +68,14 @@ del curso de Metodos Numericos">
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:textStyle="italic"
-        android:text="Contacto: @unsa.edu.pe">
+        android:text="Contacto: idiazl@unsa.edu.pe">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textStyle="italic"
+        android:text="CUI: 20150955">
     </TextView>
 
     <TextView
@@ -70,14 +84,21 @@ del curso de Metodos Numericos">
         android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:text="Jose Suri">
+        android:text="Nombre: Jose Suri Canaza">
     </TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:textStyle="italic"
-        android:text="Contacto: @unsa.edu.pe">
+        android:text="Contacto: jsurica@unsa.edu.pe">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:textStyle="italic"
+        android:text="CUI: 20111441">
     </TextView>
 
 

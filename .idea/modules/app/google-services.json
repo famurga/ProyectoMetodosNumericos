@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "620696242939",
+    "firebase_url": "https://proyectometodosnumericos-7dd0d-default-rtdb.firebaseio.com",
     "project_id": "proyectometodosnumericos-7dd0d",
     "storage_bucket": "proyectometodosnumericos-7dd0d.appspot.com"
   },
@@ -13,6 +14,22 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "620696242939-0mjrnf9fbhoucdo1a4egaugrc4srrbjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectometodosnumericos",
+            "certificate_hash": "e94844336533ef53147aa59678fe143beb8db028"
+          }
+        },
+        {
+          "client_id": "620696242939-8hkujcnvi60q3i2vv8k7ellc8iri8bef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectometodosnumericos",
+            "certificate_hash": "e49476835dce1e9fbf8efab94bc002ccec0bfde7"
+          }
+        },
         {
           "client_id": "620696242939-j1cvfqd998ur4qf1tgahvketvq0tje2g.apps.googleusercontent.com",
           "client_type": 1,
