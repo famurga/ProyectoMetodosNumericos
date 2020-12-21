@@ -92,6 +92,15 @@
         <action
             android:id="@+id/action_PantallaInicio_to_nav_slideshow"
             app:destination="@id/nav_slideshow" />
+        <action
+            android:id="@+id/action_PantallaInicio_to_miPerfilFragment"
+            app:destination="@id/miPerfilFragment" />
+        <action
+            android:id="@+id/action_PantallaInicio_to_Evaluaciones"
+            app:destination="@id/Evaluaciones" />
+        <action
+            android:id="@+id/action_PantallaInicio_to_Soporte"
+            app:destination="@id/Soporte" />
     </fragment>
     <fragment
         android:id="@+id/lagrange1Fragment"

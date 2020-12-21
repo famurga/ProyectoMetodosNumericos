@@ -21,7 +21,7 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
             FragmentEjemplos, FragmentAcercadeNosotros;
 
     CardView cardViewActividades,cardviewTareas,cardviewMiperfil,cardviewinformacion,
-            cardviewEjemplo;
+            cardviewEvaluaciones, cardViewMiPERFIL;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -43,13 +43,15 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
         cardviewTareas = v.findViewById(R.id.TaskCardId);
         cardviewMiperfil = v.findViewById(R.id.PerfilCardId);
         cardviewinformacion = v.findViewById(R.id.AcercaCardId);
-        cardviewEjemplo = v.findViewById(R.id.EjemplosCardId);
+        cardviewEvaluaciones = v.findViewById(R.id.EvaluacionesCardId);
+        cardViewMiPERFIL= v.findViewById(R.id.MiPerfilCardId);
 
         cardViewActividades.setOnClickListener((View.OnClickListener) this);
         cardviewTareas.setOnClickListener((View.OnClickListener) this);
         cardviewMiperfil.setOnClickListener((View.OnClickListener) this);
         cardviewinformacion.setOnClickListener((View.OnClickListener) this);
-        cardviewEjemplo.setOnClickListener((View.OnClickListener) this);
+        cardviewEvaluaciones.setOnClickListener((View.OnClickListener) this);
+        cardViewMiPERFIL.setOnClickListener((View.OnClickListener) this);
 
         FragmentCalculadora = new CalculadoraFragment();
         FragmentTeoria = new MenuTeoriaFragment();
@@ -80,10 +82,16 @@ public class PantallaPrincipalFragment extends Fragment implements View.OnClickL
                 */
                 break;
             case R.id.AcercaCardId:
-                transaction.replace(R.id.nav_host_fragment,FragmentSoporte);
-                transaction.addToBackStack(null);
-                break;
 
+                Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_Soporte);
+
+                break;
+            case R.id.EvaluacionesCardId:
+                Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_Evaluaciones);
+                break;
+            case R.id.MiPerfilCardId:
+                Navigation.findNavController(v).navigate(R.id.action_PantallaInicio_to_miPerfilFragment);
+                break;
         }
         transaction.commit();
 

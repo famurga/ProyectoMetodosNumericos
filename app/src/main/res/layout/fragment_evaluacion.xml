@@ -4,33 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FF9800"
+    android:background="#f4e8f3"
     tools:context=".fragments.EvaluacionFragment">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="25sp"
-        android:text="@string/question"
+        android:textColor="#09000B"
+        android:textSize="17sp"
+        android:text="Aprende jugando"
         android:id="@+id/label_question" />
 
     <TextView
         android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
         android:id="@+id/text_question"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
         android:textSize="18sp"
         android:textColor="?android:attr/textColorPrimary"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="30dp"
          />
 
     <View
         android:id="@+id/ruler"
 
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:background="#813e3e3e"
         android:layout_height="1dp"
         android:layout_width="match_parent"
@@ -39,13 +40,15 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
         android:id="@+id/answer_group">
 
         <RadioButton
             android:text="RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#062BFA"
             android:id="@+id/answer1"
             android:layout_weight="1" />
 
@@ -53,6 +56,8 @@
             android:text="RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#062BFA"
+
             android:id="@+id/answer2"
             android:layout_weight="1" />
 
@@ -60,6 +65,8 @@
             android:text="RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#062BFA"
+
             android:id="@+id/answer3"
             android:layout_weight="1" />
 
@@ -67,6 +74,7 @@
             android:text="RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#062BFA"
             android:id="@+id/answer4"
             android:layout_weight="1" />
     </RadioGroup>
@@ -84,18 +92,32 @@
             android:text="@string/prev"
             android:layout_width="wrap_content"
             android:layout_marginLeft="20dp"
-
+            android:background="#E91E63"
+android:textColor="#ffffff"
             android:layout_height="wrap_content"
             android:id="@+id/btn_prev" />
         <Button
             android:text="@string/next"
             android:layout_width="wrap_content"
+            android:background="#E91E63"
+            android:layout_marginLeft="15dp"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"
 
             android:id="@+id/btn_check" />
 
 
-    </LinearLayout>
 
+
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:src="@drawable/evaluacionimagen"
+        >
+
+    </ImageView>
 
 </LinearLayout>
