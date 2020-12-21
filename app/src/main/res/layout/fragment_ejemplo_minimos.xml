@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,19 +16,25 @@
             <ImageView
                 android:id="@+id/ejemplo_minimos"
                 android:layout_width="match_parent"
-                android:layout_height="430dp"
+                android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                app:srcCompat="@drawable/ejemplo_minimos" />
+                app:srcCompat="@drawable/ejemplo_minimos"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejemplo_minimos_1"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
-                app:srcCompat="@drawable/ejemplo_minimos_1" />
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ejemplo_minimos_1"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejemplo_minimos_2"
                 android:layout_width="match_parent"
-                android:layout_height="458dp"
-                app:srcCompat="@drawable/ejemplo_minimos_2" />
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ejemplo_minimos_2"
+                android:adjustViewBounds="true"
+                />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.proyectometodosnumericos.fragments;
 
+import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -59,7 +60,6 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
          v =inflater.inflate(R.layout.fragment_login, container, false);
-
         //inicializamos el objeto firebaseAuth
 
         //Referenciamos los views

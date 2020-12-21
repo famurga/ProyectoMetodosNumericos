@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-  android:background="#FF9800"
+  android:background="#039be5"
     tools:context=".fragments.LoginFragment">
 
     <ImageView
@@ -28,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:hint="Ingrese su Email"
-                android:textColorHint="#FFFFFF">
+                android:textColorHint="#FFFFFF"
+                android:textColor="#fff">
             </EditText>
             <EditText
                 android:id="@+id/edit2"
@@ -39,6 +40,7 @@
                 android:textColorHint="#FFFFFF"
                 android:hint="Ingrese su contraseña"
                 android:inputType="textPassword"
+                android:textColor="#fff"
                 >
             </EditText>
             <Button
@@ -46,10 +48,9 @@
                 android:layout_width="300dp"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:background="@drawable/ovalo"
-                android:textColor="@color/aqua"
+                android:background="@drawable/ovalo_login"
+                android:textColor="#fff"
                 android:text="@string/iniciar"
-
                 android:layout_marginTop="10dp"
                 >
             </Button>
@@ -58,10 +59,10 @@
                 android:id="@+id/button1"
                 android:layout_width="300dp"
                 android:layout_gravity="center"
-                android:background="@drawable/ovalo"
+                android:background="@drawable/ovalo_login"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/aqua"
+                android:textColor="#fff"
                 android:text="@string/registrar" />
 
             <Button

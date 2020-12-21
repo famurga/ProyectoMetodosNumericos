@@ -19,34 +19,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
-                app:srcCompat="@drawable/ejercicio_lagrange" />
+                app:srcCompat="@drawable/ejercicio_lagrange"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/formula_lagrange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                app:srcCompat="@drawable/formula_lagrange" />
+                app:srcCompat="@drawable/formula_lagrange"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ejercicio_lagrange_1" />
+                app:srcCompat="@drawable/ejercicio_lagrange_1"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ejercicio_lagrange_2" />
+                app:srcCompat="@drawable/ejercicio_lagrange_2"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ejercicio_lagrange_3" />
+                app:srcCompat="@drawable/ejercicio_lagrange_3"
+                android:adjustViewBounds="true"
+                />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/ejercicio_lagrange_4"
-                android:layout_marginBottom="30dp"/>
+                android:layout_marginBottom="30dp"
+                android:adjustViewBounds="true"
+                />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

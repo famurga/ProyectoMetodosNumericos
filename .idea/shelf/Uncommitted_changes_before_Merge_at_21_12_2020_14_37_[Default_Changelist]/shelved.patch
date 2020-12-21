@@ -1,0 +1,362 @@
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    package=\"com.example.proyectometodosnumericos\">\r\n\r\n    <application\r\n        android:allowBackup=\"true\"\r\n        android:icon=\"@mipmap/ic_launcher\"\r\n        android:label=\"@string/app_name\"\r\n        android:roundIcon=\"@mipmap/ic_launcher_round\"\r\n        android:supportsRtl=\"true\"\r\n        android:theme=\"@style/AppTheme\">\r\n        <activity\r\n            android:name=\".MainActivity\"\r\n            android:label=\"@string/app_name\"\r\n            android:theme=\"@style/AppTheme.NoActionBar\">\r\n            <intent-filter>\r\n                <action android:name=\"android.intent.action.MAIN\" />\r\n\r\n                <category android:name=\"android.intent.category.LAUNCHER\" />\r\n            </intent-filter>\r\n        </activity>\r\n    </application>\r\n\r\n</manifest>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/AndroidManifest.xml	(date 1608579419418)
+@@ -15,7 +15,6 @@
+             android:theme="@style/AppTheme.NoActionBar">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+-
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+Index: app/src/main/res/layout/fragment_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n  android:background=\"#1a73e8\"\r\n    tools:context=\".fragments.LoginFragment\">\r\n\r\n    <ImageView\r\n        android:layout_width=\"217dp\"\r\n        android:layout_height=\"161dp\"\r\n        android:layout_gravity=\"center\"\r\n        android:layout_marginTop=\"10dp\"\r\n        android:src=\"@drawable/logomn\"></ImageView>\r\n    <ScrollView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"vertical\">\r\n            <EditText\r\n                android:id=\"@+id/edit1\"\r\n                android:layout_width=\"300dp\"\r\n                android:layout_marginTop=\"15dp\"\r\n                android:layout_gravity=\"center\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:gravity=\"center\"\r\n                android:hint=\"Ingrese su Email\"\r\n                android:textColorHint=\"#FFFFFF\">\r\n            </EditText>\r\n            <EditText\r\n                android:id=\"@+id/edit2\"\r\n                android:layout_width=\"300dp\"\r\n                android:layout_gravity=\"center\"\r\n                android:gravity=\"center\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:textColorHint=\"#FFFFFF\"\r\n                android:hint=\"Ingrese su contraseña\"\r\n                android:inputType=\"textPassword\"\r\n                >\r\n            </EditText>\r\n            <Button\r\n                android:id=\"@+id/button2\"\r\n                android:layout_width=\"300dp\"\r\n                android:layout_gravity=\"center\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:background=\"@drawable/ovalo\"\r\n                android:textColor=\"@color/aqua\"\r\n                android:text=\"@string/iniciar\"\r\n\r\n                android:layout_marginTop=\"10dp\"\r\n                >\r\n            </Button>\r\n\r\n            <Button\r\n                android:id=\"@+id/button1\"\r\n                android:layout_width=\"300dp\"\r\n                android:layout_gravity=\"center\"\r\n                android:background=\"@drawable/ovalo\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:layout_marginTop=\"10dp\"\r\n                android:textColor=\"@color/aqua\"\r\n                android:text=\"@string/registrar\" />\r\n\r\n            <Button\r\n                android:id=\"@+id/btnInvitado\"\r\n                android:layout_width=\"300dp\"\r\n                android:layout_gravity=\"center\"\r\n                android:layout_height=\"wrap_content\"\r\n                style=\"?android:attr/buttonBarButtonStyle\"\r\n                android:layout_marginTop=\"10dp\"\r\n                android:textColor=\"#FFFEFF\"\r\n                android:text=\"@string/invitado\"\r\n                />\r\n            <com.google.android.gms.common.SignInButton\r\n                android:id=\"@+id/btnGoogle\"\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:layout_gravity=\"center\"\r\n                >\r\n            </com.google.android.gms.common.SignInButton>\r\n\r\n\r\n        </LinearLayout>\r\n\r\n\r\n\r\n\r\n    </ScrollView>\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_login.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/res/layout/fragment_login.xml	(date 1608579419318)
+@@ -28,7 +28,8 @@
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:hint="Ingrese su Email"
+-                android:textColorHint="#FFFFFF">
++                android:textColorHint="#FFFFFF"
++                android:textColor="#fff">
+             </EditText>
+             <EditText
+                 android:id="@+id/edit2"
+@@ -39,6 +40,7 @@
+                 android:textColorHint="#FFFFFF"
+                 android:hint="Ingrese su contraseña"
+                 android:inputType="textPassword"
++                android:textColor="#fff"
+                 >
+             </EditText>
+             <Button
+@@ -46,10 +48,9 @@
+                 android:layout_width="300dp"
+                 android:layout_gravity="center"
+                 android:layout_height="wrap_content"
+-                android:background="@drawable/ovalo"
+-                android:textColor="@color/aqua"
++                android:background="@drawable/ovalo_login"
++                android:textColor="#fff"
+                 android:text="@string/iniciar"
+-
+                 android:layout_marginTop="10dp"
+                 >
+             </Button>
+@@ -58,10 +59,10 @@
+                 android:id="@+id/button1"
+                 android:layout_width="300dp"
+                 android:layout_gravity="center"
+-                android:background="@drawable/ovalo"
++                android:background="@drawable/ovalo_login"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+-                android:textColor="@color/aqua"
++                android:textColor="#fff"
+                 android:text="@string/registrar" />
+ 
+             <Button
+Index: app/src/main/java/com/example/proyectometodosnumericos/fragments/LoginFragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.proyectometodosnumericos.fragments;\r\n\r\nimport android.app.ProgressDialog;\r\nimport android.content.Intent;\r\nimport android.os.Bundle;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.navigation.Navigation;\r\n\r\nimport android.text.TextUtils;\r\nimport android.util.Log;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.Button;\r\nimport android.widget.EditText;\r\nimport android.widget.Toast;\r\n\r\nimport com.example.proyectometodosnumericos.R;\r\nimport com.google.android.gms.auth.api.signin.GoogleSignIn;\r\nimport com.google.android.gms.auth.api.signin.GoogleSignInAccount;\r\nimport com.google.android.gms.auth.api.signin.GoogleSignInClient;\r\nimport com.google.android.gms.auth.api.signin.GoogleSignInOptions;\r\nimport com.google.android.gms.common.SignInButton;\r\nimport com.google.android.gms.common.api.ApiException;\r\nimport com.google.android.gms.tasks.OnCompleteListener;\r\nimport com.google.android.gms.tasks.Task;\r\nimport com.google.firebase.FirebaseApp;\r\nimport com.google.firebase.auth.AuthResult;\r\nimport com.google.firebase.auth.FirebaseAuth;\r\nimport com.google.firebase.auth.FirebaseAuthUserCollisionException;\r\n\r\nimport java.util.concurrent.Executor;\r\n\r\n\r\npublic class LoginFragment extends Fragment implements View.OnClickListener {\r\n\r\n    private EditText TextEmail;\r\n    private EditText TextPassword;\r\n    private Button btnRegistrar,btnLogin, buttonInvi;\r\n    private ProgressDialog progressDialog;\r\n    private GoogleSignInOptions gso;\r\n    private GoogleSignInClient mGoogleSignInClient;\r\n    private SignInButton botonGoogle;\r\n    private static final int RC_SIGN_IN = 777;\r\n    private FirebaseAuth firebaseAuth;\r\n    View v;\r\n\r\n    public void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n\r\n\r\n\r\n    }\r\n\r\n    @Override\r\n    public View onCreateView(LayoutInflater inflater, ViewGroup container,\r\n                             Bundle savedInstanceState) {\r\n        // Inflate the layout for this fragment\r\n         v =inflater.inflate(R.layout.fragment_login, container, false);\r\n\r\n        //inicializamos el objeto firebaseAuth\r\n\r\n        //Referenciamos los views\r\n        TextEmail = (EditText) v.findViewById(R.id.edit1);\r\n        TextPassword = (EditText) v.findViewById(R.id.edit2);\r\n\r\n        btnRegistrar = (Button) v.findViewById(R.id.button1);\r\n        btnLogin = (Button) v.findViewById(R.id.button2);\r\n        buttonInvi = (Button)v.findViewById(R.id.btnInvitado);\r\n\r\n\r\n        progressDialog = new ProgressDialog(getContext());\r\n\r\n        //attaching listener to button\r\n        //btnRegistrar.setOnClickListener((View.OnClickListener) getContext());\r\n       // btnLogin.setOnClickListener((View.OnClickListener) getContext());\r\n       // buttonInvi.setOnClickListener((View.OnClickListener) getContext());\r\n\r\n\r\n        //LOGIN GOOGLE\r\n        // Configure sign-in to request the user's ID, email address, and basic\r\n// profile. ID and basic profile are included in DEFAULT_SIGN_IN.\r\n        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)\r\n                .requestEmail()\r\n                .build();\r\n\r\n        // Build a GoogleSignInClient with the options specified by gso.\r\n        mGoogleSignInClient = GoogleSignIn.getClient(getContext(), gso);\r\n\r\n        // Check for existing Google Sign In account, if the user is already signed in\r\n// the GoogleSignInAccount will be non-null.\r\n        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(getContext());\r\n        //updateUI(account);\r\n\r\n        botonGoogle = v.findViewById(R.id.btnGoogle);\r\n        botonGoogle.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View v) {\r\n                Intent signInIntent = mGoogleSignInClient.getSignInIntent();\r\n                startActivityForResult(signInIntent, RC_SIGN_IN);\r\n            }\r\n        });\r\n\r\n        return v;\r\n\r\n    }\r\n\r\n\r\n    public void onActivityResult(int requestCode, int resultCode, Intent data) {\r\n        super.onActivityResult(requestCode, resultCode, data);\r\n\r\n        // Result returned from launching the Intent from GoogleSignInClient.getSignInIntent(...);\r\n        if (requestCode == RC_SIGN_IN) {\r\n            // The Task returned from this call is always completed, no need to attach\r\n            // a listener.\r\n            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);\r\n            handleSignInResult(task);\r\n        }\r\n    }\r\n\r\n    private void handleSignInResult(Task<GoogleSignInAccount> completedTask) {\r\n        try {\r\n            GoogleSignInAccount account = completedTask.getResult(ApiException.class);\r\n\r\n            // Signed in successfully, show authenticated UI.\r\n            Navigation.findNavController(v).navigate(R.id. action_loginFragment2_to_PantallaInicio);\r\n        } catch (ApiException e) {\r\n            // The ApiException status code indicates the detailed failure reason.\r\n            // Please refer to the GoogleSignInStatusCodes class reference for more information.\r\n            Log.w(\"Mensaje de Error xd\", \"signInResult:failed code=\" + e.getStatusCode());\r\n\r\n        }\r\n    }\r\n\r\n\r\n\r\n    private void registrarUsuario(){\r\n\r\n        //Obtenemos el email y la contraseña desde las cajas de texto\r\n        String email = TextEmail.getText().toString().trim();\r\n        String password  = TextPassword.getText().toString().trim();\r\n\r\n        //Verificamos que las cajas de texto no esten vacías\r\n        if(TextUtils.isEmpty(email)){\r\n            Toast.makeText(getContext(),\"Se debe ingresar un email\", Toast.LENGTH_LONG).show();\r\n            return;\r\n        }\r\n\r\n        if(TextUtils.isEmpty(password)){\r\n            Toast.makeText(getContext(),\"Falta ingresar la contraseña\",Toast.LENGTH_LONG).show();\r\n            return;\r\n        }\r\n\r\n\r\n        progressDialog.setMessage(\"Realizando registro en linea...\");\r\n        progressDialog.show();\r\n\r\n        //creating a new user\r\n        firebaseAuth.createUserWithEmailAndPassword(email, password)\r\n                .addOnCompleteListener((Executor) this, new OnCompleteListener<AuthResult>() {\r\n                    @Override\r\n                    public void onComplete(@NonNull Task<AuthResult> task) {\r\n                        //checking if success\r\n                        if(task.isSuccessful()){\r\n\r\n                            Toast.makeText(getContext(),\"Se ha registrado el usuario con el email: \"+ TextEmail.getText(),Toast.LENGTH_LONG).show();\r\n\r\n\r\n                        }else{\r\n                            if (task.getException() instanceof FirebaseAuthUserCollisionException) {\r\n                                Toast.makeText(getContext(),\"Ese usuario ya existe \",Toast.LENGTH_LONG).show();\r\n                            }\r\n                            else{\r\n                                Toast.makeText(getContext(),\"No se pudo registrar el usuario \",Toast.LENGTH_LONG).show();\r\n                            }\r\n\r\n                        }\r\n                        progressDialog.dismiss();\r\n                    }\r\n                });\r\n\r\n    }\r\n    private void loguearUsuario(){\r\n\r\n\r\n        //Obtenemos el email y la contraseña desde las cajas de texto\r\n        final String email = TextEmail.getText().toString().trim();\r\n        String password  = TextPassword.getText().toString().trim();\r\n\r\n        //Verificamos que las cajas de texto no esten vacías\r\n        if(TextUtils.isEmpty(email)){\r\n            Toast.makeText(getContext(),\"Se debe ingresar un email\", Toast.LENGTH_LONG).show();\r\n            return;\r\n        }\r\n\r\n        if(TextUtils.isEmpty(password)){\r\n            Toast.makeText(getContext(),\"Falta ingresar la contraseña\",Toast.LENGTH_LONG).show();\r\n            return;\r\n        }\r\n\r\n\r\n        progressDialog.setMessage(\"Realizando consulta en linea...\");\r\n        progressDialog.show();\r\n\r\n        //loguear usuario\r\n        firebaseAuth.signInWithEmailAndPassword(email, password)\r\n                .addOnCompleteListener((Executor) this, new OnCompleteListener<AuthResult>() {\r\n                    @Override\r\n                    public void onComplete(@NonNull Task<AuthResult> task) {\r\n                        //checking if success\r\n                        if(task.isSuccessful()){\r\n\r\n                            Toast.makeText(getContext(),\"Bienvenido a TaskBook  \" + TextEmail.getText(),Toast.LENGTH_LONG).show();\r\n\r\n                           // Intent intent = new Intent(getApplication(),NavigationDrawerActivity.class);\r\n\r\n                           // startActivity(intent);\r\n\r\n                        }else{\r\n                            if (task.getException() instanceof FirebaseAuthUserCollisionException) {\r\n                                Toast.makeText(getContext(),\"Ese usuario ya existe \",Toast.LENGTH_LONG).show();\r\n                            }\r\n                            else{\r\n                                Toast.makeText(getContext(),\"No se pudo registrar el usuario \",Toast.LENGTH_LONG).show();\r\n                            }\r\n\r\n                        }\r\n                        progressDialog.dismiss();\r\n                    }\r\n                });\r\n\r\n\r\n\r\n    }\r\n\r\n    public void onClick(View view) {\r\n\r\n\r\n        switch (view.getId()){\r\n\r\n            case R.id.button1:\r\n                //Invocamos al método:\r\n                //registrarUsuario();\r\n                break;\r\n            case R.id.button2:\r\n                //loguearUsuario();\r\n                break;\r\n           // case R.id.btnInvitado:\r\n                //Intent intent = new Intent(getContext(),NavigationDrawerActivity.class);\r\n               // startActivity(intent);\r\n\r\n        }\r\n\r\n\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/proyectometodosnumericos/fragments/LoginFragment.java	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/java/com/example/proyectometodosnumericos/fragments/LoginFragment.java	(date 1608579419355)
+@@ -1,5 +1,6 @@
+ package com.example.proyectometodosnumericos.fragments;
+ 
++import android.app.ActionBar;
+ import android.app.ProgressDialog;
+ import android.content.Intent;
+ import android.os.Bundle;
+@@ -59,7 +60,6 @@
+                              Bundle savedInstanceState) {
+         // Inflate the layout for this fragment
+          v =inflater.inflate(R.layout.fragment_login, container, false);
+-
+         //inicializamos el objeto firebaseAuth
+ 
+         //Referenciamos los views
+Index: app/src/main/res/drawable/ovalo.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:shape=\"rectangle\">\r\n    <size\r\n        android:width=\"300dp\"\r\n        android:height=\"5dp\">\r\n\r\n    </size>\r\n\r\n    <corners\r\n        android:radius=\"25dp\"\r\n        >\r\n\r\n    </corners>\r\n\r\n    <stroke\r\n        android:width=\"4px\"\r\n        android:color=\"@color/aqua\"\r\n        ></stroke>\r\n</shape>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ovalo.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/res/drawable/ovalo.xml	(date 1608579419732)
+@@ -4,15 +4,9 @@
+     <size
+         android:width="300dp"
+         android:height="5dp">
+-
+     </size>
+-
+-    <corners
+-        android:radius="25dp"
+-        >
+-
++    <corners android:radius="25dp">
+     </corners>
+-
+     <stroke
+         android:width="4px"
+         android:color="@color/aqua"
+Index: app/src/main/res/layout/fragment_teoria_minimos.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\">\r\n    <ScrollView\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\">\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/teoria_minimos\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"400dp\"\r\n            android:paddingTop=\"5dp\"\r\n            app:srcCompat=\"@drawable/teoria_minimos\" />\r\n        <ImageView\r\n            android:id=\"@+id/teoria_minimos_1\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"200dp\"\r\n            app:srcCompat=\"@drawable/teoria_minimos_1\" />\r\n        <ImageView\r\n            android:id=\"@+id/teoria_minimos_2\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"347dp\"\r\n            app:srcCompat=\"@drawable/teoria_minimos_2\" />\r\n        <ImageView\r\n            android:id=\"@+id/teoria_minimos_3\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"400dp\"\r\n            app:srcCompat=\"@drawable/teoria_minimos_3\" />\r\n        <ImageView\r\n            android:id=\"@+id/teoria_minimos_4\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"347dp\"\r\n            app:srcCompat=\"@drawable/teoria_minimos_4\" />\r\n        </LinearLayout>\r\n    </ScrollView>\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_teoria_minimos.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/res/layout/fragment_teoria_minimos.xml	(date 1608579419294)
+@@ -6,39 +6,47 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ScrollView
+-        android:layout_width="wrap_content"
++        android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+-
+         <ImageView
+             android:id="@+id/teoria_minimos"
+             android:layout_width="match_parent"
+-            android:layout_height="400dp"
++            android:layout_height="wrap_content"
+             android:paddingTop="5dp"
+-            app:srcCompat="@drawable/teoria_minimos" />
++            app:srcCompat="@drawable/teoria_minimos"
++            android:adjustViewBounds="true"
++            />
+         <ImageView
+             android:id="@+id/teoria_minimos_1"
+             android:layout_width="match_parent"
+-            android:layout_height="200dp"
+-            app:srcCompat="@drawable/teoria_minimos_1" />
++            android:layout_height="wrap_content"
++            app:srcCompat="@drawable/teoria_minimos_1"
++            android:adjustViewBounds="true"
++            />
+         <ImageView
+             android:id="@+id/teoria_minimos_2"
+             android:layout_width="match_parent"
+-            android:layout_height="347dp"
+-            app:srcCompat="@drawable/teoria_minimos_2" />
++            android:layout_height="wrap_content"
++            app:srcCompat="@drawable/teoria_minimos_2"
++            android:adjustViewBounds="true"
++            />
+         <ImageView
+             android:id="@+id/teoria_minimos_3"
+             android:layout_width="match_parent"
+-            android:layout_height="400dp"
+-            app:srcCompat="@drawable/teoria_minimos_3" />
++            android:layout_height="wrap_content"
++            app:srcCompat="@drawable/teoria_minimos_3"
++            android:adjustViewBounds="true"
++            />
+         <ImageView
+             android:id="@+id/teoria_minimos_4"
+             android:layout_width="match_parent"
+-            android:layout_height="347dp"
+-            app:srcCompat="@drawable/teoria_minimos_4" />
++            android:layout_height="wrap_content"
++            app:srcCompat="@drawable/teoria_minimos_4"
++            android:adjustViewBounds="true"/>
+         </LinearLayout>
+     </ScrollView>
+ </LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_ejemplo_minimos.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\">\r\n    <ScrollView\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\">\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"vertical\">\r\n\r\n            <ImageView\r\n                android:id=\"@+id/ejemplo_minimos\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"430dp\"\r\n                android:paddingTop=\"5dp\"\r\n                app:srcCompat=\"@drawable/ejemplo_minimos\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejemplo_minimos_1\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"400dp\"\r\n                app:srcCompat=\"@drawable/ejemplo_minimos_1\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejemplo_minimos_2\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"458dp\"\r\n                app:srcCompat=\"@drawable/ejemplo_minimos_2\" />\r\n        </LinearLayout>\r\n    </ScrollView>\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_ejemplo_minimos.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/res/layout/fragment_ejemplo_minimos.xml	(date 1608579419305)
+@@ -6,7 +6,7 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     <ScrollView
+-        android:layout_width="wrap_content"
++        android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="match_parent"
+@@ -16,19 +16,25 @@
+             <ImageView
+                 android:id="@+id/ejemplo_minimos"
+                 android:layout_width="match_parent"
+-                android:layout_height="430dp"
++                android:layout_height="wrap_content"
+                 android:paddingTop="5dp"
+-                app:srcCompat="@drawable/ejemplo_minimos" />
++                app:srcCompat="@drawable/ejemplo_minimos"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejemplo_minimos_1"
+                 android:layout_width="match_parent"
+-                android:layout_height="400dp"
+-                app:srcCompat="@drawable/ejemplo_minimos_1" />
++                android:layout_height="wrap_content"
++                app:srcCompat="@drawable/ejemplo_minimos_1"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejemplo_minimos_2"
+                 android:layout_width="match_parent"
+-                android:layout_height="458dp"
+-                app:srcCompat="@drawable/ejemplo_minimos_2" />
++                android:layout_height="wrap_content"
++                app:srcCompat="@drawable/ejemplo_minimos_2"
++                android:adjustViewBounds="true"
++                />
+         </LinearLayout>
+     </ScrollView>
+ </LinearLayout>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"disableWrapperSourceDistributionNotification\" value=\"true\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"1.8\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ .idea/gradle.xml	(date 1608579419425)
+@@ -16,6 +16,7 @@
+           </set>
+         </option>
+         <option name="resolveModulePerSourceSet" value="false" />
++        <option name="useQualifiedModuleNames" value="true" />
+       </GradleProjectSettings>
+     </option>
+   </component>
+Index: app/src/main/res/drawable/ovalo_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/ovalo_login.xml	(date 1608579419522)
++++ app/src/main/res/drawable/ovalo_login.xml	(date 1608579419522)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++    <size
++        android:width="300dp"
++        android:height="5dp">
++    </size>
++    <corners android:radius="25dp">
++    </corners>
++    <solid android:color="#01579B" />
++    <stroke
++        android:width="4px"
++        android:color="#6596D5"
++        ></stroke>
++</shape>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_7\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ .idea/misc.xml	(date 1608579419641)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: app/src/main/res/layout/fragment_ejemplo_lagrange.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\">\r\n    <ScrollView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"vertical\"\r\n            android:gravity=\"top\">\r\n\r\n            <ImageView\r\n                android:id=\"@+id/ejercicio_lagrange\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:paddingTop=\"5dp\"\r\n                app:srcCompat=\"@drawable/ejercicio_lagrange\" />\r\n            <ImageView\r\n                android:id=\"@+id/formula_lagrange\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:layout_marginHorizontal=\"10dp\"\r\n                app:srcCompat=\"@drawable/formula_lagrange\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejercicio_lagrange_1\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                app:srcCompat=\"@drawable/ejercicio_lagrange_1\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejercicio_lagrange_2\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                app:srcCompat=\"@drawable/ejercicio_lagrange_2\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejercicio_lagrange_3\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                app:srcCompat=\"@drawable/ejercicio_lagrange_3\" />\r\n            <ImageView\r\n                android:id=\"@+id/ejercicio_lagrange_4\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                app:srcCompat=\"@drawable/ejercicio_lagrange_4\"\r\n                android:layout_marginBottom=\"30dp\"/>\r\n        </LinearLayout>\r\n    </ScrollView>\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_ejemplo_lagrange.xml	(revision 2c91c2808cd85140b8237d94238216cfc3d7c29e)
++++ app/src/main/res/layout/fragment_ejemplo_lagrange.xml	(date 1608579419365)
+@@ -19,34 +19,46 @@
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="5dp"
+-                app:srcCompat="@drawable/ejercicio_lagrange" />
++                app:srcCompat="@drawable/ejercicio_lagrange"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/formula_lagrange"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginHorizontal="10dp"
+-                app:srcCompat="@drawable/formula_lagrange" />
++                app:srcCompat="@drawable/formula_lagrange"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejercicio_lagrange_1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+-                app:srcCompat="@drawable/ejercicio_lagrange_1" />
++                app:srcCompat="@drawable/ejercicio_lagrange_1"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejercicio_lagrange_2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+-                app:srcCompat="@drawable/ejercicio_lagrange_2" />
++                app:srcCompat="@drawable/ejercicio_lagrange_2"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejercicio_lagrange_3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+-                app:srcCompat="@drawable/ejercicio_lagrange_3" />
++                app:srcCompat="@drawable/ejercicio_lagrange_3"
++                android:adjustViewBounds="true"
++                />
+             <ImageView
+                 android:id="@+id/ejercicio_lagrange_4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 app:srcCompat="@drawable/ejercicio_lagrange_4"
+-                android:layout_marginBottom="30dp"/>
++                android:layout_marginBottom="30dp"
++                android:adjustViewBounds="true"
++                />
+         </LinearLayout>
+     </ScrollView>
+ </LinearLayout>
+\ No newline at end of file
