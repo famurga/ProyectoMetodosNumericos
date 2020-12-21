@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/gradient4"
+  android:background="#1a73e8"
     tools:context=".fragments.LoginFragment">
 
     <ImageView

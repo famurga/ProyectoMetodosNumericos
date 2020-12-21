@@ -4,13 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#579C95"
+    android:background="#FF9800"
     tools:context=".fragments.SoporteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
 
     <ImageView
         android:id="@+id/ImgUnsa"
-        android:layout_width="181dp"
-        android:layout_height="139dp"
+        android:layout_width="207dp"
+        android:layout_height="162dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:src="@drawable/logounsa">
@@ -37,6 +48,7 @@ del curso de Metodos Numericos">
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="40dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:text="Frank Alex Murga Diaz">
     </TextView>
@@ -44,6 +56,7 @@ del curso de Metodos Numericos">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="17sp"
         android:textStyle="italic"
         android:text="Contacto: fmurga@unsa.edu.pe">
     </TextView>
@@ -51,6 +64,7 @@ del curso de Metodos Numericos">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="17sp"
         android:textStyle="italic"
         android:text="CUI: 20150944">
     </TextView>
@@ -59,13 +73,15 @@ del curso de Metodos Numericos">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="20sp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:text="Ivan Diaz">
+        android:text="Ivan Alfondo Diaz Leuccalla">
     </TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="17sp"
         android:layout_marginLeft="70dp"
         android:textStyle="italic"
         android:text="Contacto: idiazl@unsa.edu.pe">
@@ -74,6 +90,7 @@ del curso de Metodos Numericos">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="17sp"
         android:textStyle="italic"
         android:text="CUI: 20150955">
     </TextView>
@@ -82,20 +99,23 @@ del curso de Metodos Numericos">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="20sp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:text="Nombre: Jose Suri Canaza">
+        android:text="Jose Suri Canaza">
     </TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
+        android:textSize="17sp"
         android:textStyle="italic"
         android:text="Contacto: jsurica@unsa.edu.pe">
     </TextView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="17sp"
         android:layout_marginLeft="70dp"
         android:textStyle="italic"
         android:text="CUI: 20111441">
@@ -180,6 +200,8 @@ del curso de Metodos Numericos">
 
     </HorizontalScrollView>
     -->
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

@@ -98,7 +98,7 @@ public class CalculadoraMinimosFragment extends Fragment implements View.OnClick
                 //double res=l1.getResultadoPArrayList(valorInter);
                 // editInterpo.getText().clear();
                 //String Res=""+res;
-                txtResult.setText("Funcion: \n"+Res+"\nGrado de Correlación: "+Error);
+                txtResult.setText("Funcion: \n"+Res+"\nCoeficiente de determinacion: "+Error);
                 break;
             case R.id.btnGraficar:
 

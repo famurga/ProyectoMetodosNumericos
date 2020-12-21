@@ -77,7 +77,8 @@ public class MinimosCuadrados
         }
 
         double aux = (st - sr) / st;
-        r = Math.sqrt(aux);
+        r = aux;
+
 
         return String.format("%.6f", r);
     }
