@@ -60,7 +60,7 @@ public class MenuEjemploFragment extends Fragment {
         btnNewton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Navigation.findNavController(v).navigate(R.id.action_nav_slideshow_to_ejercicioNewtonFragment);
             }
         });
 

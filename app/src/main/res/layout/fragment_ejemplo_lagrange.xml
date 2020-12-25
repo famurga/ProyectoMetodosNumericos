@@ -19,32 +19,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="5dp"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejercicio_lagrange" />
             <ImageView
                 android:id="@+id/formula_lagrange"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/formula_lagrange" />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejercicio_lagrange_1" />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejercicio_lagrange_2" />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejercicio_lagrange_3" />
             <ImageView
                 android:id="@+id/ejercicio_lagrange_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejercicio_lagrange_4"
                 android:layout_marginBottom="30dp"/>
         </LinearLayout>

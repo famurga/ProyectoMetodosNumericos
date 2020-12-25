@@ -41,6 +41,9 @@
         <action
             android:id="@+id/action_nav_slideshow_to_ejemploInterpolacionLinealFragment"
             app:destination="@id/ejemploInterpolacionLinealFragment" />
+        <action
+            android:id="@+id/action_nav_slideshow_to_ejercicioNewtonFragment"
+            app:destination="@id/ejercicioNewtonFragment" />
     </fragment>
     <fragment
         android:id="@+id/calculadora"

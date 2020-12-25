@@ -16,18 +16,21 @@
             <ImageView
                 android:id="@+id/ejemplo_minimos"
                 android:layout_width="match_parent"
-                android:layout_height="430dp"
+                android:layout_height="wrap_content"
                 android:paddingTop="5dp"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejemplo_minimos" />
             <ImageView
                 android:id="@+id/ejemplo_minimos_1"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejemplo_minimos_1" />
             <ImageView
                 android:id="@+id/ejemplo_minimos_2"
                 android:layout_width="match_parent"
-                android:layout_height="458dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
                 app:srcCompat="@drawable/ejemplo_minimos_2" />
         </LinearLayout>
     </ScrollView>
